@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Beatles - Concurso</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <script>
+                window.confirm ("Desea participar del concurso Quien Sabe Mas De Los Beatles?");
+                var nom = prompt("Ingrese su nombre:");
+                console.log(nom);
+                var cor = prompt("Ingrese un mail de contacto");
+                console.log(cor);
+                alert("Escriba la letra correcta para cada pregunta")
+                var preguntas = [
+                    {
+                        prompt: "¿Cuál es el verdadero nombre de Ringo Starr?\n(a) Rick Smart\n(b) Richard Starkey\n(c) Dick Harrison\n(d) Mick Smith",
+                        answer: "b"
+                    },
+                    {
+                        prompt: "¿Cuántos albumes de estudio lanzaron los Beatles?\n(a) 9\n(b) 10\n(c) 11\n(d) 13",
+                        answer: "d"
+                    },
+                    {
+                        prompt: "¿Cuál fue la primer canción que escribió Paul McCartney?\n(a) Girl, come my way\n(b) Love me do\n(c) Girl\n(d) I lost my little girl",
+                        answer: "d"
+                    },
+                    {
+                        prompt: "¿Cuál es el primer nombre de Paul McCartney?\n(a) Paul\n(b) Jeremy\n(c) Paul\n(d) James",
+                        answer: "d"
+                    },
+                    {
+                        prompt: "¿Para qué banda británica cantaron los coros John y Paul?\n(a) The Rolling Stones\n(b) The animals\n(c) Badfinger\n(d) The Kinks",
+                        answer: "a"
+                    },
+                    {
+                        prompt: "¿Qué álbum de los Beatles tiene exclusivamente canciones de Lennon-McCartney?\n(a) Help\n(b) Revolver\n(c) Please Please Me\n(d) A Hard Day's Night",
+                        answer: "d"
+                    },
+                    {
+                        prompt: "¿Qué dice John al final de Strawberry Fields Forever?\n(a) I buried Paul\n(b) Please give me more\n(c) Cranberry sauce\n(d) I need the Lord",
+                        answer: "c"
+                    },
+                    {
+                        prompt: "¿Quién fue el primer Beatle en dejar el grupo?\n(a) Ringo\n(b) Paul\n(c) George\n(d) John",
+                        answer: "a"
+                    },
+                    {
+                        prompt: "¿Qué canción de los Bleatles fue la única canción escrita por George Harrison que se lanzó como single?\n(a) My Sweet Lord\n(b) Something\n(c) Taxman\n(d) Here Comes the Sun",
+                        answer: "b"
+                    },
+                    {
+                        prompt: "En 1966, John Lennon dijo que los Beatles eran más populares ¿que quién?\n(a) El Papa\n(b) La Virgen María\n(c) Buda\n(d) Jesús",
+                        answer: "d"
+                    },
+
+                ]
+            var puntaje = 0;
+            for (var i=0; i < preguntas.length; i++)
+            {
+                var respuesta = window.prompt(preguntas[i].prompt);
+                if(respuesta == preguntas[i].answer){
+                    puntaje++;
+                    alert("Respuesta correcta");
+                } else {
+                    alert("Respuesta Incorrecta");
+                }
+            }
+            alert(nom + " obtuviste " + puntaje + " respuesta/s correcta/s de " + preguntas.length)
+
+             
+
+            </script>
+    </head>
+    <body>
+    <header>
+        <img src="LogoBeatles.png">
+    <nav>
+        <a href="index.html">Inicio</a>
+            <a href="Pagina1 - copia.html">Discografía</a>
+            <a href="Lennon.html">John Lennon</a>
+            <a href="McCartney.html">Paul McCartney</a>
+            <a href="Ringo.html">Ringo Starr</a>
+            <a href="Harrison.html">George Harrison</a> 
+            <a href="Pagina1 - copia - copia.html">Comprar</a>
+            <a href="Concurso.html">Concurso</a>
+    </nav>
+    </header>
+    <main>
+        <p><h1>Muchas gracias por participar del concurso!</h1>
+            <br>
+            El participante con mayor cantidad de respuestas sera el ganador del concurso. De haber empate se sorteara entre los participantes empatados con el mayor puntaje.
+            El ganador sera anunciado y contactado al correo provisto anteriormente.
+                
+        </p>
+    </main>
+    <aside>
+        <img src="beatles.gif" alt="Beatles" width="350" height="200">
+     </aside>
+        
+     <footer>
+         <p><a href="https://play.howstuffworks.com/quiz/how-well-do-you-know-the-beatles-sp">Cuestionario Completo</a> </p>
+         <p>Pagnina realizada por <a href="mailto:gncostanzi@gmail,com?subjects=Questions"> Gonzalo Costanzi</a></p>
+         <p>Curso Animate A Programar 2022. <a href="https://revoluciondigital.com.ar/">Revolución Digital</a></p>
+         <p>Contacto <a href="https://api.whatsapp.com/send?phone=3364197098&text=hola,%20¿Necesitas Información?">Whatsapp</a></p>
+     </footer>
+
+    </body>
+</html>

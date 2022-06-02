@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Beatles</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+    <header>
+        <img src="LogoBeatles.png">
+    <nav>
+            <a href="Pagina1.html">Inicio</a>
+            <a href="Pagina1 - copia.html">Discografía</a>
+            <a href="Pagina1 - copia - copia.html">Comprar</a>
+    </nav>
+    </header>
+    <main>
+        <p><b>The Beatles</b>; también conocida en el mundo hispano como <b>los Beatles</b>, fue una banda de rock británica formada en Liverpool durante los años 1960, estando integrada desde 1962 a su separación en 1970 por <i>John Lennon</i>, <i>Paul McCartney</i>, <i>George Harrison</i> y <i>Ringo Starr</i>. Es ampliamente considerada como la banda más influyente de todos los tiempos, siendo parte fundamental en el desarrollo del movimiento contracultural de la década de 1960 y el reconocimiento de la música popular como forma de arte. Enraizada en el skiffle, la música beat y el rock and roll de los años 1950, su sonido incorporaría a menudo elementos de la música clásica y del pop tradicional, entre otros, de forma innovadora en sus canciones; la banda posteriormente llegaría a trabajar con un extenso rango de estilos musicales, yendo desde las baladas y la música de India, hasta la psicodelia y el hard rock. Como pioneros en las formas de grabación, composición y presentación artística; la naturaleza de su enorme popularidad, que había emergido primeramente con la moda de la «beatlemanía», se transformó al tiempo que sus composiciones se volvieron más sofisticadas, revolucionando diversos aspectos de la industria musical y llegando a ser percibidos como la encarnación de los ideales progresistas de las juventudes de la época y sus movimientos sociales y culturales.</p>
+    </main>
+    <aside>
+        <h1><font face="Helvetica">Top 10 canciones mas escuchadas actualmente</font></h1>
+        <a href="https://www.youtube.com/c/TheBeatles">Escuchar en Youtube</a>
+        <ul>
+        <li><b><font size=4>Don’t Let Me Down</b>(First Rooftop Performance)</font><br>
+            <i>Let It Be</i> (Super Deluxe)</li>
+
+        <li><b><font size=4>Here Comes The Sun</b>(Remastered 2009)</font><br>
+            <i>Abbey Road</i></li>
+
+        <li><b><font size=4>Let It Be</b>(Remastered 2009)</font><br>
+            <i>Let It Be</i></li>
+
+        <li><b><font size=4>Come Together</b>(Remastered 2009)</font><br>
+            <i>Abbey Road</i></li>
+
+        <li><b><font size=4>Hey Jude</b></font><br>
+            <i>1</i></li>
+
+        <li><b><font size=4>A Day In The Life</b>(Remastered 2009)</font><br>
+            <i>Sgt. Pepper's Lonely Hearts Club Band</i></li>
+
+        <li><b><font size=4>Help!</b>(Remastered 2009)</font><br>
+            <i>Help!</i></li>
+
+        <li><b><font size=4>Something</b>(Remastered 2009)</font><br>
+            <i>Abbey Road</i></li>
+
+        <li><b><font size=4>Strawberry Fields Forever</b>(Stereo Mix 2015)</font><br>
+            <i>Sgt. Pepper's Lonely Hearts Club Band</i>(Super Deluxe Edition)</li>
+
+        <li><b><font size=4>In My Life</b>(Remastered 2009)</font><br>
+            <i>Rubber Soul</i></li>
+        </ul>
+     </aside>
+        
+     <footer>
+         <p>Pagnina realizada por <a href="mailto:gncostanzi@gmail,com?subjects=Questions"> Gonzalo Costanzi</a></p>
+         <p><a href="https://api.whatsapp.com/send?phone=3364197098&text=hola,%20¿Necesitas Información?">Whatsapp</a></p>
+     </footer>
+
+    </body>
+</html>

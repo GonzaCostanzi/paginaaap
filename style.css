@@ -1,0 +1,55 @@
+*{
+    padding: 5px;
+    font-style: helvetica;
+}
+body{
+    color: whitesmoke;
+    /*background-image: url("") ; poner una imagen de fondo
+    */ 
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.807),rgba(11, 11, 11, 0.96)),url(background.png);
+}
+nav a:hover{
+    background-color: rgba(0, 0, 255, 0.152);
+}
+footer{
+    border-top-style: outset;
+    margin-top: 30px;
+}
+a{
+    color: whitesmoke;
+    font-size: medium;
+}
+aside{
+    width: 30%;
+    font-size: large;
+    border-style: outset;
+    border-color: rgb(101, 69, 48);
+    float: right;
+    text-align: center;
+}
+header{
+    text-align: center;
+    border-style: outset;
+    border-width: 10px;
+    border-color: rgb(101, 69, 48);
+    background-color: rgba(48, 75, 75, 0.773);
+    background-image: url(sgt2.jpg);
+}
+main{
+    width: 65%;
+    font-size: large;
+    display: inline-block;
+}
+tr:hover {
+    background-color: #80efef2b;
+}
+/*tr:nth-child(even) {
+    background-color: #4cefef5b;
+  }*/
+  tr {
+  border-bottom: 1px solid #ddd;
+}
+table{
+    text-align: center;
+}
